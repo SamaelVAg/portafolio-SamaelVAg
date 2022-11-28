@@ -145,7 +145,7 @@ h3{
     background-color: var(--verypalemain);
     width: 170px;
     display: grid;
-    grid-template-rows: 2;
+    grid-template-rows: auto 10rem;
     grid-template-columns: calc(15px + 0.75rem) calc(155px - 1rem);
 }
 
@@ -165,4 +165,101 @@ h3{
     font-size: var(--caption-sz);
     grid-column-start: 1;
     grid-column-end: 3;
+}
+
+.exp-section{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.exp-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+
+}
+
+.exp-box{
+    width: 100%;
+    max-width: 350px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.exp-img{
+    align-self: center;
+    width: 25%;
+}
+
+.exp-site{
+    width: 50%;
+}
+
+.job{
+    font-size: var(--caption-sz);
+}
+
+.years{
+    font-size: 10px;
+}
+
+.exp-time{
+    text-align: right;
+    width: 25%;
+    font-weight: var(--subtit-wt);
+}
+
+.portafolio-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.port-container{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.port-img{
+    width: 100%;
+    max-width: 350px;
+}
+
+.contact-section{
+    width: 100%;
+    max-width: 750px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+}
+
+.contact-container{
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+}
+
+.contact-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-btn{
+    background-color: var(--cream);
+    width: 5rem;
+    height: 5rem;
+    padding: 0.75rem;
+    border-radius: 50%;
+
 }
