@@ -28,6 +28,10 @@ body{
     padding-bottom: 10rem;
 }
 
+p{
+    color: var(--gray);
+}
+
 img{
     max-width: 100%;
     display: block;
@@ -37,13 +41,19 @@ a{
     text-decoration: none;
 }
 
+a:active{
+    color: transparent;
+}
+
 h2{
     font-size: var(--subtit-sz);
     font-weight: var(--subtit-wt);
+    color: var(--darkgray);
 }
 
 h3{
     font-size: var(--subsec-sz);
+    color: var(--darkgray);
 }
 
 .header-content{
@@ -214,6 +224,7 @@ h3{
     text-align: right;
     width: 25%;
     font-weight: var(--subtit-wt);
+    color: var(--darkgray);
 }
 
 .portafolio-section{
@@ -261,5 +272,4 @@ h3{
     height: 5rem;
     padding: 0.75rem;
     border-radius: 50%;
-
 }
